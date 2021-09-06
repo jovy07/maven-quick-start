@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
   <artifactId>maven-quick-start</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.7-SNAPSHOT</version>
   
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -64,7 +64,6 @@
    <artifactId>maven-release-plugin</artifactId>
    <version>2.4.2</version>
    <configuration>
-      <tagNameFormat>v@{project.version}</tagNameFormat>
       <autoVersionSubmodules>true</autoVersionSubmodules>
       <releaseProfiles>releases</releaseProfiles>
    </configuration>
