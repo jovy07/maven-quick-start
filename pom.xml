@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
   <artifactId>maven-quick-start</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -131,7 +131,7 @@
         <url>https://github.com/jovy07/maven-quick-start.git</url>
         <connection>scm:git:https://github.com/jovy07/maven-quick-start.git</connection>
         <developerConnection>scm:git:https://github.com/jovy07/maven-quick-start.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>maven-quick-start-1.5</tag>
   </scm>
 
   <distributionManagement>
