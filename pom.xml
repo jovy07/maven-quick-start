@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>clinic.programmming</groupId>
   <artifactId>maven-quick-start</artifactId>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.8-SNAPSHOT</version>
   
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -115,6 +115,7 @@
     <!-- Central Repository -->
     <repository>
       <id>nexus-snapshots</id>
+      <name>releases</name>
       <url>http://localhost:8081/repository/maven-releases</url>
    </repository>
   </distributionManagement>
