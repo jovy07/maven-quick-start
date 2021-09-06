@@ -54,7 +54,7 @@
       <extensions>true</extensions>
       <configuration>
         <serverId>nexus-snapshots</serverId>
-        <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+        <nexusUrl>http://localhost:8081/</nexusUrl>
         <autoReleaseAfterClose>false</autoReleaseAfterClose>
       </configuration>
     </plugin>
