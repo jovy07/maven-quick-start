@@ -54,7 +54,7 @@
       <extensions>true</extensions>
       <configuration>
         <serverId>nexus-snapshots</serverId>
-        <nexusUrl>http://localhost:8081/</nexusUrl>
+        <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
         <autoReleaseAfterClose>false</autoReleaseAfterClose>
       </configuration>
     </plugin>
@@ -140,6 +140,10 @@
         <id>nexus-snapshots</id>
         <url>http://localhost:8081/repository/maven-snapshots</url>
     </snapshotRepository>
+    <repository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-releases</url>
+   </repository>
   </distributionManagement>
   
 </project>
